@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive_sidebar.css">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <title>Graveyard Cafe</title>
 </head>
-<header>
-  <span id="page_header">
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-  </span>
-</header>
+
 <body>
+  <div class="sidebar">
+    <a class="selected_page" href="">Home</a>
+    <a href="/blogs">Blogs</a>
+    <a href="/reviews">Reviews</a>
+    <a href="/projects">Projects</a>
+    <a href="/socials">Socials</a>
+    <a href="/resume">Resumé</a>
+  </div>
+
+  <div class="content">
+    <span id="">
+      <h2>Responsive Sidebar Example</h2>
+      <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px
+        or less.</p>
+      <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the
+        navigation links.</p>
+      <h3>Resize the browser window to see the effect.</h3>
+  </div>
 </body>
+
 </html>
