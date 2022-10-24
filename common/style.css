@@ -1,0 +1,41 @@
+html{
+  /*background-color*/
+  --primarystandard: #BB86FC;
+  --primaryvariant: #3700B3;
+  --secondary: #03DAC6;
+  --backgroundsurface: #121212;
+  --error: #CF6679;
+  /*text-color*/
+  --onprimary: #000000;
+  --onbackground: #DAE1E7;
+  /*defaults*/
+  background-color: var(--backgroundsurface);
+  color: var(--onbackground);
+
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+div.post_section_odd {
+  border-radius: 25px;
+  background: var(--primarystandard);
+  color: var(--onprimary);
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+div.post_section_even {
+  border-radius: 25px;
+  background: var(--secondary);
+  color: var(--onprimary);
+  padding: 20px;
+  margin: 20px 0px;
+}
