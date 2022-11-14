@@ -1,0 +1,33 @@
+@media screen and (max-width: 400px) {
+  div.sidebar {
+    width: 100%;
+    height: auto;
+    font-size: 4vw;
+  }
+  
+  div.content {
+    font-size: 4vw;
+  }
+
+  img.photo {
+    width: 80vw;
+  }
+  
+  img.logo {
+    width: 13vw;
+  }
+
+  img.aref {
+    height: 11vw;
+  }
+
+  img.downsvg {
+    width: 10vw;
+  }
+
+  div.imgrightalign {
+    display: flex;
+    justify-content: center;
+    float: none;
+  }
+}
