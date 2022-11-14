@@ -1,0 +1,12 @@
+@media print {
+   .noprint{
+      display: none !important;
+      height: 0% !important;
+      width: 0% !important;
+   }
+
+    div.content {
+      margin-left: 0px !important;
+      color: #000; 
+  }
+}

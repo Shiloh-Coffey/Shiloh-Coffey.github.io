@@ -1,0 +1,39 @@
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+div.post_section_odd {
+  border-radius: 25px;
+  background: var(--primarystandard);
+  color: var(--onprimary);
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+div.post_section_even {
+  border-radius: 25px;
+  background: var(--secondary);
+  color: var(--onprimary);
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+div.imgleftalign {
+  float: left;
+}
+
+div.imgrightalign {
+  float: right;
+}
+
+div.grade {
+  float:left;
+  color: var(--onbackground);
+  background-color: var(--grade);
+  border: solid 1px;
+  border-color: var(--backgroundsurface);
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
